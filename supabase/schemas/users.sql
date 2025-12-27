@@ -1,0 +1,6 @@
+CREATE TABLE users(
+    id bigint NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    name text,
+    created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
